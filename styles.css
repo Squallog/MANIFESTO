@@ -1,0 +1,116 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Share+Tech+Mono&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Dancing+Script:wght@400..700&family=Kirang+Haerang&family=Londrina+Sketch&family=Pacifico&family=Quintessential&family=Raleway+Dots&family=Rock+3D&family=VT323&family=Yarndings+20&display=swap');
+
+
+/* sytling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* background-image: url(https://texturelabs.org/wp-content/uploads/Texturelabs_Grunge_308S.jpg); */
+    /* background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/01/01/Liquify-abstract-texture-background-art-Graphics-22726524-1.jpg); */
+    /* background-image: url(https://cdn.sanity.io/images/6e7gp05s/production/a4fdaf98533dacd455d147868df2734aa1dbe073-1800x1012.jpg?w=3800&q=85&fit=clip&auto=format); */
+    background-image: url(https://cms-artifacts.artlist.io/content/motion_array/1804609/Grunge_Texture_high_resolution_preview_1804609.jpg?Expires=2037554319381&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=KgRl0UseD5qw0Ra8U538JSaNoW1E6WIJ3EjD~1gkEl6C7aFSykzzeivWV78rLzhtlc9wc~Go6fWGD8wI9l84Ndnx15br3LOG2DTfsahSNz83rrBWiLfwhyofsQlCKfeMOxnKsASbgAsI~K8XtiZaQlSdkiCbmj0SFVU1no5R1d-D9L65jniQZalx6JXwAMIcL4TI3ZjESyJO7QXKPHYjsZe0AKqBp5gOEbSAfNIxyc9ZNK5oaJsngkpvsnDgre2vkKy7b-y0ICASuSjijy4vum10Y0o3KRbz4uNmHFBMVlxngnRwR4~KXm-Ce7nckuXNouB7wUAdeeffYKFZINhZFw__);
+    /* background-size: cover; */
+    padding: 0;
+    overscroll-behavior: none;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 135, 83, 0.58);
+
+}
+
+main {
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    background-color: rgba(30, 30, 30, 0.553);
+    color: azure;
+    overflow-y: scroll;
+}
+p {
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+em {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: aqua;
+}
+
+h1 {
+    margin: 0;
+    padding: 30px;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+    color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Barriecito";
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+}
+
+/* glitch fonts */
+
+main.f1 em{
+    font-family: "Cabin Sketch";
+}
+
+main.f2 em{
+    font-family: "Yarndings 20";
+}
+
+main.f3 em{
+    font-family: "Qunitessential";
+}
+
+main.f4 em{
+    font-family: "Dancing Script";
+}
+
+main.f5 em{
+    font-family: "Raleway Dots";
+}
+
+main.f6 em{
+    font-family: "Kiran Haerang";
+}
+
+main.f7 em{
+    font-family: "Londrina Sketch";
+}
+
+main.f8 em{
+    font-family: "VT323";
+}
+
+main.f9 em{
+    font-family: "Rock 3D";
+}
+
+.f10 em{
+    font-family: "VT323";
+}
+
+.f11 em{
+    font-family: "Pacifico";
+}
