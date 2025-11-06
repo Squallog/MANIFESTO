@@ -1,6 +1,6 @@
 content = document.getElementById("content");
 
-var then = new Date(2025, 10, 6, 13);
+var then = new Date(2025, 10, 6, 12);
 console.log(then);
 var thenMil = then.getTime();
 console.log("then " + thenMil)
